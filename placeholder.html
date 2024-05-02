@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> David Howard's Digital Portfolio</title>
+		<meta charset="utf-8">
+		<meta name="description" content="David Howard's Digital Portfolio that showcases a couple of his software projects.">
+		<meta name="keywords" content="David Howard Digital Portfolio, Resume, David Howard's Projects">
+		<meta name="author" content="David Howard">
+        <link rel="stylesheet" href="Port.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <main>
+		<body>
+		<div id="wrapper">
+		<header>David Howard's Digital Portfolio</header>
+			<nav>
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a href=>Resume</a></li>
+					<li><a href="projects.html">Projects</a>
+					<ul>
+						<li><a href="calendarBoard.html">CalendarBoard</a></li>
+						<li><a href="npsWebsite.html">Northern Psychiatric Services Website</a></li>
+						<li><a href="diffChat.html">DiffChat</a></li>
+						<li><a href="placeholder.html">???</a></li>
+					</ul>
+					</li>
+					<li><a href="Contact.html">Contact Me</a></li>
+					<li><button name = "dmbutton" onclick = "darkMode()">
+						<i id = "dmbutton" class="fa fa-moon-o"></i>
+						<i id = "lmbutton" class="fa fa-sun-o" style="display:none;"></i>
+					</button></li>
+				</ul>
+			</nav>
+			<p>This is a placeholder space for future projects.</p>
+			<footer>Last Updated: 1/9/2024.</footer>
+		</body>
+	</main>
+	<script>
+	function darkMode() {
+		var element = document.body;
+		var dmbutton = document.getElementById("dmbutton");
+		var lmbutton = document.getElementById("lmbutton");
+		element.classList.toggle("dark-mode");
+		if (lmbutton.style.display == "none") {
+			dmbutton.style.display = "none";
+			lmbutton.style.display = "block";
+		}
+		else if (dmbutton.style.display == "none") {
+			dmbutton.style.display = "block";
+			lmbutton.style.display = "none";
+		}
+		
+	}
+	</script>
+</html>

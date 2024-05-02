@@ -1,0 +1,157 @@
+main {
+	background-color: #FFFFFF;
+}
+header {
+	background-color: #66DA58; 
+	font-size: 36px; 
+	text-align: center; 
+	font-family: calibri;
+	font-weight: bold;
+	margin: auto;
+	border: 1px solid;
+	padding: 20px;
+	position: absoulte;
+}
+
+footer {
+	background-color: #66DA58; 
+	text-align: left; 
+	font-family: calibri;
+	margin: auto;
+	border: 1px solid;
+	padding: 5px;
+	position: fixed;
+	bottom:0;
+}
+
+img {
+	float: left;
+	position: relative;
+	z-index: 1;
+}
+
+nav {
+	background-color: #D0F0C0;
+	font-size: 24px; 
+	text-align: left;
+	font-family: calibri;
+	border: 1px solid;
+	padding: 20px;
+	position: relative;
+}
+
+nav ul { 
+list-style-type: none;
+text-decoration: none; 
+margin: 0;
+padding: 0;
+}
+
+nav li {
+	padding-left: 20px;
+	display: inline-block;
+}
+
+nav ul ul {
+position: absolute;
+background-color: #D0F0C0;
+padding: 0;
+text-align: center;
+display: none;
+}
+
+nav ul ul li {
+	border: 1px solid #000000;
+	display: block;
+	width: 9em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+nav li:hover ul {display: block;}
+
+nav a {
+	text-decoration: none;
+	display: block;
+}
+nav a:link { color: #808080;}
+nav a:visited { color: #013220;}
+nav a:hover { color: #037d50;}
+nav a.active {color: #FFFFFF}
+
+#wrapper {
+	min-width: 900px;
+	max-width: 1280px;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	height: 0px;
+}
+
+p { 
+	font-size:18px; 
+	text-align: left; 
+	font-family:calibri;
+}
+
+button{
+	background-color: #D0F0C0;
+	border: none;
+}
+
+table {
+	margin: auto;
+	border: 1px solid;
+}
+caption {
+	font-weight: bold;
+	font-family: calibri;
+}
+
+th {
+	border: 5px solid #66DA58;
+	border-spacing: 5px;
+	font-family:calibri;
+}
+td {
+	border: 5px solid #66DA58;
+	border-spacing: 5px;
+	font-family:calibri;
+}
+tr:nth-of-type(even) {
+	background-color: #d3d3d3;
+}
+
+.dark-mode {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.dark-mode header{
+	color: #FFFFFF;
+	background-color: #006a00;
+	border-color: #FFFFFF;
+}
+
+.dark-mode nav {
+	background-color: #00dc00;
+}
+.dark-mode nav a{
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+}
+
+.dark-mode p{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.dark-mode #wrapper{
+	background-color: #000000;
+}
+
+.dark-mode footer{
+	color: #FFFFFF;
+	background-color: #006a00;
+	border-color: #FFFFFF;
+}
